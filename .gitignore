@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 环境与密钥（切勿提交）----
+.env
+.streamlit/secrets.toml
+
+# ---- 虚拟环境 ----
+.venv/
+.venv_audit/
+venv/
+env/
+
+# ---- 运行产物 ----
+*.log
+.smoke.log
+.shots/
+.frames/
+.video_tmp/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- 本地工具数据（含本机路径，不公开）----
+.workbuddy-ai/
